@@ -1,16 +1,16 @@
 {
   "description": "API adapter for CMS Copilot.",
   "require": {
-    "liberusoftware/module-cms-copilot": "^0.1",
     "illuminate/http": "^13.38.0",
-    "php": "^8.5"
+    "php": "^8.5",
+    "liberusoftware/module-cms-cms-copilot": "^0.1"
   },
   "name": "liberusoftware/module-cms-copilot-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "extra": {
     "liberu": {
       "name": "module-cms-copilot-api",
-      "core": "liberusoftware/module-cms-copilot"
+      "core": "liberusoftware/module-cms-cms-copilot"
     },
     "laravel": {
       "providers": [
